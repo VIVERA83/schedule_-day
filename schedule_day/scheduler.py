@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Literal
 
-from .utils import seconds_to_str
+from utils import seconds_to_str
 
 Events = Literal["start", "stop"]
 
